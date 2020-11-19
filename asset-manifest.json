@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/nailApp/static/css/main.225a303f.chunk.css",
-    "main.js": "/nailApp/static/js/main.ccdb7b9e.chunk.js",
-    "main.js.map": "/nailApp/static/js/main.ccdb7b9e.chunk.js.map",
+    "main.js": "/nailApp/static/js/main.81b082a3.chunk.js",
+    "main.js.map": "/nailApp/static/js/main.81b082a3.chunk.js.map",
     "runtime-main.js": "/nailApp/static/js/runtime-main.a01b68af.js",
     "runtime-main.js.map": "/nailApp/static/js/runtime-main.a01b68af.js.map",
-    "static/js/2.c03d8dc6.chunk.js": "/nailApp/static/js/2.c03d8dc6.chunk.js",
-    "static/js/2.c03d8dc6.chunk.js.map": "/nailApp/static/js/2.c03d8dc6.chunk.js.map",
+    "static/js/2.8ec9640d.chunk.js": "/nailApp/static/js/2.8ec9640d.chunk.js",
+    "static/js/2.8ec9640d.chunk.js.map": "/nailApp/static/js/2.8ec9640d.chunk.js.map",
     "static/js/3.1e00db80.chunk.js": "/nailApp/static/js/3.1e00db80.chunk.js",
     "static/js/3.1e00db80.chunk.js.map": "/nailApp/static/js/3.1e00db80.chunk.js.map",
     "index.html": "/nailApp/index.html",
     "static/css/main.225a303f.chunk.css.map": "/nailApp/static/css/main.225a303f.chunk.css.map",
-    "static/js/2.c03d8dc6.chunk.js.LICENSE.txt": "/nailApp/static/js/2.c03d8dc6.chunk.js.LICENSE.txt"
+    "static/js/2.8ec9640d.chunk.js.LICENSE.txt": "/nailApp/static/js/2.8ec9640d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a01b68af.js",
-    "static/js/2.c03d8dc6.chunk.js",
+    "static/js/2.8ec9640d.chunk.js",
     "static/css/main.225a303f.chunk.css",
-    "static/js/main.ccdb7b9e.chunk.js"
+    "static/js/main.81b082a3.chunk.js"
   ]
 }

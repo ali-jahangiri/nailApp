@@ -1,0 +1,32 @@
+.column__container {
+    height: 100%;
+
+}
+
+.column__empty {
+    border-radius: 5px;
+    width: 90%;
+    padding: 15px 10px;
+    margin: 30px auto;
+    border: 1px dashed #383d413b;
+    backdrop-filter: blur(10px);
+    opacity: 0.4;
+    cursor: default;
+}
+
+.column__box {
+    padding-bottom: 50px;
+}
+
+.column__start {
+    margin-top: 30px;
+}
+
+.column__title {
+    p {
+        font-weight: 600;
+        margin-left: 15px;
+        font-size: 1.2rem;
+        color: #424242;
+    }
+}

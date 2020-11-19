@@ -1,0 +1,228 @@
+.task__container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 13px;
+    margin-top: 20px;
+    width: 90%;
+    position: relative;
+    transition: box-shadow 0.6s ease-in-out 1s;
+    outline: none;
+}
+
+.task__category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        border-radius: 50px;
+        padding: 2px 10px;
+    }
+}
+
+.task__3dot {
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 14px;
+    padding: 15px 5px 15px 15px;
+
+    span {
+        margin: 0 2px;
+        width: 5px;
+        height: 5px;
+        background-color: rgba(0, 0, 0, 0.33);
+        border-radius: 50%;
+        display: block;
+    }
+}
+
+.column__grab--shadow {
+    box-shadow: 0px 20px 18px 0px #7d7d7d24;
+}
+
+.task__time {
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.task__edite--container {
+    position: absolute;
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    padding: 20px;
+    height: 100%;
+    color: #353535;
+    cursor: auto;
+
+    p {
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    i {
+        opacity: 0;
+        margin-top: 5px;
+        animation: test 1s forwards;
+        cursor: pointer;
+    }
+
+    .fa-edit {
+        color: #353535;
+
+    }
+
+    .fa-trash {
+        color: $red;
+        margin-right: 4px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+
+    }
+
+    .task__edite--back {
+        cursor: pointer;
+        position: relative;
+        display: block;
+
+        &:hover {
+            span {
+                &::after {
+                    background-color: $one;
+                }
+            }
+
+        }
+
+        span {
+            margin-left: 10px;
+
+
+            &::after {
+                transition: all 0.5s;
+                content: "";
+                opacity: 0;
+                animation: test 1s forwards;
+                display: block;
+                width: 10px;
+                height: 10px;
+                background-color: #353535;
+                left: -10px;
+                top: 7px;
+                border-radius: 50%;
+                position: absolute;
+            }
+        }
+    }
+
+
+    color: transparent;
+    background-color: rgba(255, 255, 255, 0);
+    animation: blureFade forwards 0.6s ease-in-out;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+}
+
+@keyframes blureFade {
+    to {
+        color: black;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+    }
+}
+
+@keyframes test {
+    to {
+        opacity: 1;
+    }
+}
+
+.test__class {
+    margin: 0;
+
+}
+
+.task__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        color: #3d3d3d;
+        font-size: 0.9rem;
+    }
+
+    i {
+        color: gray;
+        font-size: 0.9rem;
+    }
+}
+
+.task__delete {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.945);
+    z-index: 5;
+    text-align: center;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+    &:hover {
+        i {
+            margin-top: -15px;
+        }
+    }
+
+    i {
+        transition: all 0.3s;
+        margin-top: 0px;
+        font-size: 2rem;
+        text-shadow: #ff00004d 1px 5px 20px;
+
+    }
+
+    div {
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 10px;
+
+        button {
+            &:first-child {
+                background-color: transparent;
+                border: none;
+                transition: all 0.3s;
+
+                &:hover {
+                    color: #ff0000e1;
+                }
+            }
+
+            &:last-child {
+                background-color: transparent;
+                color: $one;
+                border: transparent;
+                padding: 1px 10px;
+            }
+        }
+    }
+}

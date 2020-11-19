@@ -1,0 +1,14 @@
+.hello--user__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+
+    .hello--user__para {
+        font-size: 1.5rem;
+
+        span {
+            font-weight: 500;
+        }
+    }
+}

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const ColorCategory = ({ handler, kk, allColor, shuoldGetEmpty }) => {
-  console.log(shuoldGetEmpty);
   const [picked, setPicked] = useState(0);
   const clickHandler = (kk, el) => {
     handler(kk, el);

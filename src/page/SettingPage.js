@@ -10,7 +10,6 @@ import SettingCategory from "../components/SettingCategory";
 const SettingPage = ({ editeNameAction, userName, category, history }) => {
   const [nameValue, setNameValue] = useState(userName);
   const [toggle, setToggle] = useState(false);
-  console.log(category);
   const userNameChangre = () => {
     setToggle(!toggle);
     if (toggle && nameValue.length > 2) {
